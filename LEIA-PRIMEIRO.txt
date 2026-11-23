@@ -1,0 +1,8 @@
+EMPRESAS 2027 - CORREÇÃO DA CONEXÃO (VERCEL + SUPABASE)
+
+1. Este pacote usa as variáveis SUPABASE_URL e SUPABASE_ANON_KEY da Vercel, por meio de /api/config.js. A chave deve ser PUBLICÁVEL (sb_publishable_...), nunca secreta.
+2. Faça novo deploy da PASTA COMPLETA deste pacote na Vercel, no MESMO projeto. Não envie o ZIP ao importador de empresas do Supabase.
+3. Confirme em https://SEU-SITE.vercel.app/api/config.js que a configuração é gerada. Não compartilhe screenshots de chaves.
+4. A autenticação usa public.perfis_acesso, colunas usuario_id,nome,perfil,ativo, conforme banco configurado anteriormente.
+5. Este pacote não executa SQL nem modifica os 251 cadastros. A tabela de empresas e a de movimentações podem ainda precisar de adaptação de colunas/esquema; após login teste carregamento antes de uso real.
+6. Se o projeto não reconhecer a pasta api/, publique por Git ou Vercel CLI. Variáveis de ambiente só entram em deploys NOVOS.
