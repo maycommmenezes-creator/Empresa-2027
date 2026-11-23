@@ -54,3 +54,5 @@ As permissões são aplicadas **no Supabase via Row Level Security (RLS)**, não
 - `public/config.example.js`: exemplo de configuração pública.
 - `supabase/schema.sql`: banco, papéis, RLS e gatilhos de auditoria.
 - `vercel.json`: cabeçalhos de segurança básicos.
+- Atualização de implantação do Empresas 2027.
+
