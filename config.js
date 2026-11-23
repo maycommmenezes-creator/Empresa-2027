@@ -1,4 +1,4 @@
 window.EMPRESAS_CONFIG = {
   supabaseUrl: 'https://xuoyvvtdqykbgrirrv.supabase.co',
-  supabaseAnonKey: 'SUA_CHAVE_PUBLICAVEL_ANON'
+  supabaseAnonKey: 'sb_publishable_INVRRzhmoopoXWKOmUKNow_Sn4wqvjn'
 };
